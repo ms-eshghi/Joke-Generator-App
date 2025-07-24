@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { IJoke } from '../types/Joke';
 
-const useJokes = () => {
+function useJokes() {
   const [savedJokes, setSavedJokes] = useState<IJoke[]>([]);
 
   const saveJoke = (joke: IJoke): boolean => {
