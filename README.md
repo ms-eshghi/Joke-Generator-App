@@ -1,3 +1,34 @@
+# Joke Generator App 😄
+
+This is a simple Joke Generator web application built with **React**, **TypeScript**, and **Material UI (v6)**. The app demonstrates key React concepts including routing, `useEffect` with cleanup, and custom hooks. Users can generate random jokes and save their favorites to view later.
+
+## ✨ Features
+
+- 🎭 Fetch random jokes from the [Official Joke API](https://official-joke-api.appspot.com/random_joke)
+- Save jokes locally (state-managed)
+- Delete saved jokes
+- Custom React hook for managing saved jokes
+- Material UI components for styling
+- React Router for page navigation
+
+1. Clone the Repository
+git clone https://github.com/ms-eshghi/Joke-Generator-App.git
+cd Joke-Generator-App
+
+2. Install Dependencies
+npm install
+
+3. Run the App
+npm run dev
+
+The app will be available at http://localhost:5173
+Technologies Used
+React (v18)
+TypeScript
+Material UI (v6)
+React Router DOM (v6)
+Vite
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
