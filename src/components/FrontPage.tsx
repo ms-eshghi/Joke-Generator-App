@@ -62,11 +62,11 @@ const FrontPage: React.FC<FrontPageProps> = ({ saveJoke }) => {
       ) : null}
 
       <Button variant="contained" color="primary" onClick={fetchJoke} style={{ marginRight: '1rem' }}>
-        GET JOKE
+        Get Joke
       </Button>
       {joke && saveJoke && (
         <Button variant="contained" color="primary" onClick={() => saveJoke(joke)}>
-          SAVE JOKE
+          Save Joke
         </Button>
       )}
     </div>

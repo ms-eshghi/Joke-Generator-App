@@ -33,7 +33,7 @@ const SavedPage: React.FC<SavedPageProps> = ({ savedJokes, deleteJoke }) => {
                     onClick={() => deleteJoke(joke.id)}
                     style={{ marginTop: '1rem' }}
                   >
-                    DELETE
+                    Delete
                   </Button>
                 </CardContent>
               </Card>
